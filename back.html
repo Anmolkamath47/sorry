@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>untoldcoding</title>
+    <link rel="stylesheet" href="news.css" />
+    <style>
+       body {
+    font-style: Arial;
+    background: black;
+  }
+  
+  .animation-box {
+    width: 75%;
+    height: 27.5rem;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animation-container {
+    width: 1000rem;
+    height: 30rem;
+  }
+  
+  .first-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+    color: white;
+  }
+  
+  .second-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 8.5rem;
+    opacity: 0;
+    animation-name: rightFadeInOut;
+    animation-delay: 4s ;
+    animation-duration: 10s;
+    color: #ccc;
+  }
+  
+ 
+  
+  .fourth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 10%;
+    opacity: 0;
+    color: #f0a3be;
+    animation-name: fadeInOut;
+    animation-delay: 12s ;
+    animation-duration: 10s;
+  }
+  
+  .fifth-text {
+    font-size: 5rem;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    color: #f0eba3;
+    animation-name: bottomFadeOut;
+    animation-delay: 18s;
+    animation-duration: 15s;
+  }
+  
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bottomFadeOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes topFadeOutVertical {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      right: 10rem;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+    </style>
+  </head>
+  <body>
+    <section class="animation-box">
+      <div class="first-text">Today Whatever Happened Is Unintentionally.
+      </div>
+      <div class="second-text">
+        I Accept That It Was My Fault<br/> That I Planned And At Last Moment<br/> I Didnt Come.
+      </div>
+      <!-- <div class="third-text">I love seeing you blush.</div> -->
+      <div class="fourth-text">
+        Plz Take Your Words Back
+        <img src="d:\WhatsApp Image 2024-12-04 at 21.50.28_7ba141e5.jpg" alt="if you are not coming means this is the last conversation with you">
+      </div>
+      <div class="fifth-text">
+        At Last Its Your Wish I Cant Tell More Than This.<br/>
+        ----->SORRY<-----
+      </div>
+    </section>
+  </body>
+</html>
